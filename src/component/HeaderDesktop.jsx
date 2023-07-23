@@ -14,14 +14,14 @@ const HeaderDesktop = () => {
                                         <NavLink className="nav-link" to="/">Home</NavLink>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="javascript:(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to work</Link>
+                                        <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to work</Link>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <NavLink className="dropdown-item" to="/inspection">Home Inspections</NavLink>
                                             <NavLink className="dropdown-item" to="/appraisal">Home Appraisal</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="javascript:(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to Upload</Link>
+                                        <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to Upload</Link>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <NavLink className="dropdown-item" to="/inspection">Home Inspections</NavLink>
                                             <NavLink className="dropdown-item" to="/appraisal">Home Appraisal</NavLink>
@@ -34,7 +34,7 @@ const HeaderDesktop = () => {
                     <div className="col-12 col-md-2">
                         <div className="logo-center">
                             <Link className="navbar-brandsdfd" to="/">
-                                <img src="assets/images/logo/logo1.png" className="img-fluid" />
+                                <img src="assets/images/logo/logo1.png" alt='logo' className="img-fluid" />
                             </Link>
                         </div>
                     </div>
@@ -48,19 +48,19 @@ const HeaderDesktop = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="javascript:(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to view</Link>
+                                        <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to view</Link>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <NavLink className="dropdown-item" to="/inspection">Home Inspections</NavLink>
                                             <NavLink className="dropdown-item" to="/appraisal">Home Appraisal</NavLink>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="javascript:(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Noticed</Link>
+                                        <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Noticed</Link>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <NavLink className="nav-link" to="/home-inspection">Home inspectors</NavLink>
-                                            <NavLink className="dropdown-item" to="javascript:(0)">Lenders</NavLink>
-                                            <NavLink className="dropdown-item" to="javascript:(0)">Realtors</NavLink>
-                                            <NavLink className="dropdown-item" to="javascript:(0)">Home appraisers</NavLink>
+                                            <NavLink className="dropdown-item" to="/">Lenders</NavLink>
+                                            <NavLink className="dropdown-item" to="/">Realtors</NavLink>
+                                            <NavLink className="dropdown-item" to="/">Home appraisers</NavLink>
                                         </div>
                                     </li>
                                     <button type="button" className="btn-primary button-login">
