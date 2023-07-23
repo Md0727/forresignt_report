@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import "../node_modules/fontawesome-4.7/css/font-awesome.min.css";
+import "../src/assets/css/style.css";
+import "../src/assets/css/responsive.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

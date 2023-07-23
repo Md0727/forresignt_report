@@ -1,0 +1,294 @@
+@media screen and (min-width: 992px) {
+	.only-mobile {
+		display: none;
+	}
+	.banner-video .col-12 {
+	    padding: 0;
+	}
+	.banner-video {
+		padding: 0;
+	}
+	.table-list {
+	    width: 100%;
+	    height: 329px;
+	    overflow: auto;
+	}
+	.table-list::-webkit-scrollbar {
+	  width: 10px;               /* width of the entire scrollbar */
+	}
+
+	.table-list::-webkit-scrollbar-track {
+	  background: orange;        /* color of the tracking area */
+	}
+
+	.table-list::-webkit-scrollbar-thumb {
+	  background-color: #fff;    /* color of the scroll thumb */
+	  border-radius: 20px;       /* roundness of the scroll thumb */
+	  border: 3px solid orange;  /* creates padding around scroll thumb */
+	}
+	.advitisment-outer{
+	    background-image: url('../../../public/assets/images/advertisment/bg.jpg');
+	    width: 100%;
+	    height: calc(100% - 5px);
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+	.navbar-collapse.header-desktop .nav-link {
+	    display: block;
+	    padding: 0.5rem 0.5rem;
+	    font-size: 14px!important;
+	    color: #101531!important;
+	    letter-spacing: 0.5px;
+	}
+	.inspection-content h1 {
+		font-size: 32px;
+	}
+	.profileImage {
+	    width: 100%;
+	    height: auto;
+	    max-width: 60px;
+	    margin: auto;
+	}
+	.profile-content h1 {
+	    width: 100%;
+	    display: block;
+	    text-align: center;
+	    padding: 0;
+	    margin-top: 4px;
+	    margin-bottom: 0px;
+	    font-size: 16px;
+	    color: #333;
+	}
+	.profile-content p {
+	    width: 100%;
+	    display: block;
+	    text-align: center;
+	    padding: 0;
+	    font-size: 14px;
+	    color: #333;
+	}
+	.profile-content address {
+	    margin-bottom: 1rem;
+	    font-style: normal;
+	    line-height: 1.2;
+	}
+}
+@media screen and (max-width: 991px) {
+	.only-desktop {
+		display: none;
+	}
+	.navbar-brands-mobile {
+	    width: 100%;
+	    max-width: 70px;
+	    height: 100%;
+	    display: block;
+	}
+	.navbar-brands-mobile img {
+	    width: 100%;
+	    height: 100%;
+	}
+	.banner-video {
+		margin-top: 0;
+		height: 100%;
+	}
+	header.only-mobile.bg-light {
+		background-color: #fff!important;
+		border-bottom: 1px solid #6464640d;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.dropdown-menu.show {
+	    border: 1px solid #e9ecef;
+	    border-radius: 0px;
+	    margin: 5px 0 15px 0;
+	}
+	ul.dropdown-menu.dropdown-submenu.show {
+	    position: absolute;
+	    left: 0;
+	    top: 40px;
+	    transition: 0.5s;
+	    display: block;
+	}
+	.dropdown-item {
+	    padding: 0.55rem 0.5rem;
+	    font-size: 15px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+}
+@media screen and (max-width: 767px) {
+	.banner-content {
+	    width: 100%;
+	    height: 100%;
+	    padding: 70px 0;
+	    margin: 0;
+	    text-align: center;
+	}
+	.banner-content h2 {
+		font-size: 35px;
+	}
+	.banner-content p {
+	    font-size: 18px;
+	    color: #ffffff;
+	    margin-bottom: 25px;
+	    display: block;
+	    padding: 0 50px;
+	}
+	.padding-right {
+		padding-right: 15px!important;
+		margin-bottom: 15px;
+	}
+	.padding-left {
+		padding-left: 15px!important;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.wrapper-content {
+	    height: 100%;
+	}
+	.advitisment-outer {
+	    width: 100%;
+	    height: 100%;
+	    padding: 30px 0;
+	    margin: 0;
+	    display: block;
+	}
+	.david-mcbride {
+	    font-size: 13px;
+	    font-weight: 500;
+	    color: #ffd90d;
+	    margin-bottom: 2px;
+	}
+	.inspection-content h1 {
+	    font-size: 32px;
+	    margin-top: 30px;
+	}
+	.home-inspection-s {
+	    font-size: 12px;
+	    font-weight: 400;
+	    color: #333;
+	}
+	.Huntsville {
+	    width: 100%;
+	    min-height: 55px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    font-size: 14px;
+	}
+	div#footer-info {
+	    text-transform: capitalize;
+	    font-size: 14px;
+	}
+	.dropdown-menu {
+		width: 100%;
+	}
+	.login-form #login-box {
+	    position: relative;
+	    margin: 5% auto;
+	    width: 100%;
+	    height: 100%;
+	    background: #FFF;
+	    border-radius: 2px;
+	    box-shadow: 0 2px 4px rgb(0 0 0 / 40%);
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: column;
+	}
+
+	.login-form .left {
+	    padding: 40px;
+	    width: 100%;
+	    height: 100%;
+	}
+	.login-form .right {
+	    box-sizing: border-box;
+	    padding: 40px;
+	    width: 100%;
+	    height: 100%;
+	    background-size: cover;
+	    background-position: center;
+	    border-radius: 0 2px 2px 0;
+	}
+	.login-form input[type="text"], input[type="password"] {
+	    width: 100%;
+	}
+	.login-form .or {
+	    position: absolute;
+	    left: 46%;
+	    top: 23rem!important;
+	    width: 40px;
+	    height: 40px;
+	    background: #DDD;
+	    border-radius: 50%;
+	    box-shadow: 0 2px 4px rgb(0 0 0 / 40%);
+	    line-height: 40px;
+	    text-align: center;
+	}
+	.or.loginsdfdsf {
+		top: 20rem!important;
+	}
+	.login-form button.social-signin {
+	    width: 100%;
+	}
+	.login-form .right .loginwith {
+		display: none;
+	}
+	.login-form input[type="text"], .login-form input[type="password"] {
+		width: 100%;
+	}
+	button.btn-primary.button-login {
+	    display: block;
+	    width: 100%;
+	    max-width: 150px;
+	    margin-left: auto;
+	    height: 41px;
+	}
+	img.images-three {
+	    width: 100%;
+	    max-width: 50px;
+	    opacity: 0.2;
+	    border-radius: 50%;
+	    height: 50px;
+	    position: absolute;
+	    top: 4rem;
+	    right: 22rem;
+	}
+	img.images-one {
+	    width: 100%;
+	    max-width: 50px;
+	    opacity: 0.2;
+	    border-radius: 50%;
+	    height: 50px;
+	    position: absolute;
+	    top: 16rem;
+    	left: 3rem;
+	}
+	img.images-two {
+	    width: 100%;
+	    max-width: 50px;
+	    opacity: 0.2;
+	    border-radius: 50%;
+	    height: 50px;
+	    position: absolute;
+	    top: 10rem;
+    	left: 11rem;
+	}
+	img.images-four {
+		max-width: 50px;
+	    opacity: 0.2;
+	    border-radius: 50%;
+	    height: 50px;
+	}
+
+}
